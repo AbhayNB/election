@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>विधान सभा क्षेत्र   -- "पाटन - 95"</title>
+</head>
+<body>
+    <h1>विधान सभा क्षेत्र   -- "पाटन - 95"</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>क्रमांक</th>
+                <th>नाम</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for constituency in constituencies %}
+            <tr>
+                <td>{{ constituency[0] }}</td>
+                <td><a href="/constituency/{{ constituency[0] }}">{{ constituency[1] }}</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

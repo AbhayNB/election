@@ -1,0 +1,198 @@
+मतदान केंद्र क्रमांक	मतदान केंद्र का नाम	मतदान केंद्र के कुल मतदाताओं की संख्या				मतदान करने वाले मतदाताओं की संख्या				मतदान का प्रतिशत	उपयोग में लाये गये निविदत्त (टेंडर) मतों की संख्या	उपयोग में लाये गये अभ्याक्षेपित (चैलेंज) मतों की संख्या	सीएसवी के द्वारा प्रॉक्सी वोटों की संख्या	नेत्रहीन / अशक्त मतदाता जिन्होंने साथी की मदद से अपने मत का प्रयोग किया, उनकी संख्या	ईपिक के आधार पर अपने मताधिकार का प्रयोग करने वाले मतदाताओं की संख्या	वैकल्पिक दस्तावेजों के आधार पर अपने मताधिकार का प्रयोग करने वाले मतदाताओं की संख्या	नियम 49-0 के तहत मत दर्ज न करने का विनिष्चिय करने वाले मतदाताओं की संख्या	मॉकपोल के दौरान उपस्थित मतदान अभिकर्ताओं की संख्या	मतदान प्रक्रिया के दौरान उपस्थित मतदान अभिकर्ताओं की संख्या	प्रवासी निर्वाचकों की संख्या जिन्होंने मतदान में वोट दिया	उपयोग में लायी गयी BU, CU, VVPAT की संख्या			क्या BU, CU या VVPAT बदली या प्रतिस्थापित किया गया 	यदि हाँ तो किस समय बदली गई तथा इसके बदलने के क्या कारण थे	ईडीसी से मतदान करने वाले मतदाताओं की संख्या	एएसडी सूची में दर्ज मतदाताओं की कुल संख्या	एएसडी सूची में दर्ज मतदाताओं में से मतदान करने वाले मतदाताओं की संख्या	शाम 06:00 बजे मतदाताओं को वितरित पर्चियों की संख्या	हिंसा की कोई घटना या अन्य कारण से मतदान में रूकावट (यदि हाँ तो संक्षिप्त टिप्पणी दे)	मतदान केन्द्र के संदर्भ में कोई शिकायत प्राप्त हुई हो तो विवरण
+
+
+
+मतदान केंद्र क्रमांक	मतदान केंद्र का नाम	मतदान केंद्र के कुल मतदाताओं की संख्या			
+		पुरूष	महिला	अन्य	योग
+1	पथरिया	622	607	0	1229
+
+मतदान करने वाले मतदाताओं की संख्या				मतदान का प्रतिशत	उपयोग में लाये गये निविदत्त (टेंडर) मतों की संख्या	उपयोग में लाये गये अभ्याक्षेपित (चैलेंज) मतों की संख्या	सीएसवी के द्वारा प्रॉक्सी वोटों की संख्या	नेत्रहीन / अशक्त मतदाता जिन्होंने साथी की मदद से अपने मत का प्रयोग किया, उनकी संख्या	ईपिक के आधार पर अपने मताधिकार का प्रयोग करने वाले मतदाताओं की संख्या	वैकल्पिक दस्तावेजों के आधार पर अपने मताधिकार का प्रयोग करने वाले मतदाताओं की संख्या	नियम 49-0 के तहत मत दर्ज न करने का विनिष्चिय करने वाले मतदाताओं की संख्या	मॉकपोल के दौरान उपस्थित मतदान अभिकर्ताओं की संख्या	मतदान प्रक्रिया के दौरान उपस्थित मतदान अभिकर्ताओं की संख्या	प्रवासी निर्वाचकों की संख्या जिन्होंने मतदान में वोट दिया	उपयोग में लायी गयी BU, CU, VVPAT की संख्या			क्या BU, CU या VVPAT बदली या प्रतिस्थापित किया गया 	यदि हाँ तो किस समय बदली गई तथा इसके बदलने के क्या कारण थे	ईडीसी से मतदान करने वाले मतदाताओं की संख्या	एएसडी सूची में दर्ज मतदाताओं की कुल संख्या	एएसडी सूची में दर्ज मतदाताओं में से मतदान करने वाले मतदाताओं की संख्या	शाम 06:00 बजे मतदाताओं को वितरित पर्चियों की संख्या	हिंसा की कोई घटना या अन्य कारण से मतदान में रूकावट (यदि हाँ तो संक्षिप्त टिप्पणी दे)	मतदान केन्द्र के संदर्भ में कोई शिकायत प्राप्त हुई हो तो विवरण
+योग	पुरूष	महिला	अन्य	योग												BU	CU	VVPAT	(हॉ या नहीं)							
+
+
+action="{{ url_for('update_booth_details') }}"
+
+# class VidhanSabha(db.Model):
+#     id = db.Column(db.Integer, primary_key=True)
+#     no = db.Column(db.Integer, nullable=False)
+#     name = db.Column(db.String(100), nullable=False)
+    
+# class BoothDetails(db.Model):
+#     id = db.Column(db.Integer, primary_key=True)
+#     booth_number = db.Column(db.Integer, nullable=False)
+#     booth_name = db.Column(db.String(100), nullable=False)
+#     total_voters = db.Column(db.Integer, nullable=False)
+#     male_voters = db.Column(db.Integer, nullable=False)
+#     female_voters = db.Column(db.Integer, nullable=False)
+#     other_voters = db.Column(db.Integer, nullable=False)
+#     total_voted = db.Column(db.Integer, nullable=False)
+#     vote_percentage = db.Column(db.Float, nullable=False)
+#     tender_votes = db.Column(db.Integer, nullable=False)
+#     challenge_votes = db.Column(db.Integer, nullable=False)
+#     proxy_votes = db.Column(db.Integer, nullable=False)
+#     bu_cu_vvpat_used = db.Column(db.Integer, nullable=False)
+#     rule_49_voters = db.Column(db.Integer, nullable=False)
+#     agent_present = db.Column(db.Integer, nullable=False)
+#     migrant_voters = db.Column(db.Integer, nullable=False)
+#     divyang_voters = db.Column(db.Integer, nullable=False)
+#     alternative_doc_voters = db.Column(db.Integer, nullable=False)
+#     bu_cu_vvpat_changed = db.Column(db.String(10), nullable=False)
+#     bu_cu_vvpat_change_time = db.Column(db.String(100), nullable=False)
+#     asd_total_voters = db.Column(db.Integer, nullable=False)
+#     asd_voters_voted = db.Column(db.Integer, nullable=False)
+#     voters_received = db.Column(db.Integer, nullable=False)
+#     incidents_reported = db.Column(db.Text, nullable=True)
+
+
+
+@app.route('/update_booth_details', methods=['POST'])
+def update_booth_details():
+    booth_number = request.form['boothNumber']
+    booth_name = request.form['boothName']
+    total_voters = request.form['totalVoters']
+    male_voters = request.form['maleVoters']
+    female_voters = request.form['femaleVoters']
+    other_voters = request.form['otherVoters']
+    total_voted = request.form['totalVoted']
+    vote_percentage = request.form['votePercentage']
+    tender_votes = request.form['tenderVotes']
+    challenge_votes = request.form['challengeVotes']
+    proxy_votes = request.form['proxyVotes']
+    bu_cu_vvpat_used = request.form['buCuVvpatUsed']
+    rule_49_voters = request.form['rule49Voters']
+    agent_present = request.form['agentPresent']
+    migrant_voters = request.form['migrantVoters']
+    
+    
+    
+vidhan_sabha_constituencies = [
+   
+    (1, "पौडीकला"),
+    (2, "पौंडीखुर्द"),
+    (3, "मालाखुर्द"),
+    (4, "मालाकलां"),
+    # Add more constituencies here
+]
+
+# Sample data for the names
+names = ['Paudikala', 'Poundikhtrd', 'Malakhurd', 'Malakalan', 'Malakalan', 'Paudi', 'Simiria Hardwa', 'Kanti', 'Kuwarpur', 'Kuwarpur', 'Katarbelkheda', 'Katarbelkheda', 'Premtola', 'Jurikala', 'Madwa', 'Harduabona', 'Gadaghat', 'Gadaghat', 'Jatwa', 'Rimgha', 'Dundi', 'Madhpiparia', 'Udna', 'Bhuwara', 'Bhuwara', 'Padriya Bhamak', 'Simiria', 'Surhiya', 'Patan', 'Patan', 'Patan', 'Patan', 'Patan', 'Patan', 'Patan', 'Patan', 'Patan', 'Patan', 'Mahuakheda', 'Konekala', 'Budhikoni', 'Itwa Imalia', 'Mando', 'Thana', 'Rampura', 'Jugiya', 'Gurupiparia', 'Barhi', 'Singauri', 'Mahagwa', 'Sahsan', 'Dhaneta', 'Gwari', 'Amarpur', 'Kumgwa', 'Piparia Chandbhan', 'Medhi', 'Khairi', 'Udna Road', 'Baroda Hada', 'Paudi', 'Banwar', 'Hada', 'Katiyaluhri', 'Padriya Veohari', 'Sakra', 'Chitruha', 'Mahdamanwara', 'Kaimori', 'Kaimori', 'Tamoriya', 'Bagsawahi', 'Birua', 'Kharari', 'Jamuniya', 'Byohari', 'Bhartri', 'Kaithara', 'Sarond', 'Raithara', 'Khamond', 'Mudia', 'Nunsari', 'Nunsarroja', 'Jarond', 'Baronda Chedi', 'Chedi', 'Badkhera', 'Simiria', 'Kantora', 'Nichi', 'Ujarod', 'Archa', 'Luhri', 'Binaki', 'Timri', 'Benikheda', 'Agasound', 'Padriya', 'Bilkhurwa', 'Simiria', 'Sahsan', 'Karamanwara', 'Chapri', 'Paudi', 'Kankhurweda', 'Gangkhmariya', 'Boriya', 'Pouniya', 'Khaira', 'Ramkhiriya', 'Thuha', 'Ghaterra', 'Dugriya', 'Chargawa', 'Barbata', 'Mohla', 'Majgawa', 'Paudirajghat', 'Katangi', 'Katangi', 'Katangi', 'Katangi', 'Katangi', 'Katangi', 'Katangi', 'Katangi', 'Katangi', 'Katangi', 'Kankhrhata', 'Jatassi', 'Kharari', 'Kanti', 'Midki', 'Luhri', 'Kunsali', 'Murrai', 'Bhiloda', 'Sara', 'Ganiyari', 'Gaura', 'Mudari', 'Kapa', 'Tikuri', 'Indrana', 'Indrana', 'Indrana', 'Indrana', 'Indrana', 'Bankhedi', 'Luhri', 'Kaunekala', 'Harduakala', 'Harduakala', 'Chapra', 'Pahruwa', 'Badkheda', 'Madai']
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+
+@app.route('/vd')
+def vidhansabha():
+    return render_template('vidhansabha.html', constituencies=vidhan_sabha_constituencies)
+
+@app.route('/details/<name>')
+def details(name):
+    return render_template('details.html', name=name)
+
+@app.route('/submit', methods=['POST'])
+def submit():
+    # Handle the form submission logic here
+    # You can access the form data using request.form
+    print(request.form)
+    return 'Form submitted successfully'
+
+
+
+
+
+    <!DOCTYPE html>
+    <html lang="hi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>मतदान केंद्र डेटा अपडेट</title>
+    </head>
+    <body>
+        <h2>मतदान केंद्र डेटा अपडेट</h2>
+        <form action="/update_booth_data" method="post">
+            <label for="booth_id">मतदान केंद्र ID:</label><br>
+            <input type="text" id="booth_id" name="booth_id"><br>
+    
+            <label for="male_voted">पुरुषों का मतदान:</label><br>
+            <input type="text" id="male_voted" name="male_voted"><br>
+    
+            <label for="female_voted">महिलाओं का मतदान:</label><br>
+            <input type="text" id="female_voted" name="female_voted"><br>
+    
+            <label for="other_voted">अन्य लिंग के मतदाताओं का मतदान:</label><br>
+            <input type="text" id="other_voted" name="other_voted"><br>
+    
+            <label for="total_voted">कुल मतदान:</label><br>
+            <input type="text" id="total_voted" name="total_voted"><br>
+    
+            <label for="vote_percentage">मतदान का प्रतिशत:</label><br>
+            <input type="text" id="vote_percentage" name="vote_percentage"><br>
+    
+            <label for="tender_votes">टेंडर मत:</label><br>
+            <input type="text" id="tender_votes" name="tender_votes"><br>
+    
+            <label for="challenge_votes">चैलेंज मत:</label><br>
+            <input type="text" id="challenge_votes" name="challenge_votes"><br>
+    
+            <label for="proxy_votes">प्रॉक्सी मत:</label><br>
+            <input type="text" id="proxy_votes" name="proxy_votes"><br>
+    
+            <label for="voters_with_assistance_count">साथी की मदद से मतदान करने वाले मतदाता:</label><br>
+            <input type="text" id="voters_with_assistance_count" name="voters_with_assistance_count"><br>
+    
+            <label for="voters_with_EPIC_count">ईपिक कार्ड के साथ मतदान करने वाले मतदाता:</label><br>
+            <input type="text" id="voters_with_EPIC_count" name="voters_with_EPIC_count"><br>
+    
+            <label for="voters_with_alternative_documents_count">वैकल्पिक दस्तावेज़ों के साथ मतदान करने वाले मतदाता:</label><br>
+            <input type="text" id="voters_with_alternative_documents_count" name="voters_with_alternative_documents_count"><br>
+    
+            <label for="rule49_voters">नियम 49-0 के तहत मत न देने वाले मतदाता:</label><br>
+            <input type="text" id="rule49_voters" name="rule49_voters"><br>
+    
+            <label for="mock_polling_voters_count">मॉक पोलिंग मतदाता:</label><br>
+            <input type="text" id="mock_polling_voters_count" name="mock_polling_voters_count"><br>
+    
+            <label for="agent_present">मतदान एजेंट:</label><br>
+            <input type="text" id="agent_present" name="agent_present"><br>
+    
+            <label for="migrant_voters">प्रवासी मतदाता:</label><br>
+            <input type="text" id="migrant_voters" name="migrant_voters"><br>
+    
+            <label for="bu_used">उपयोग में लाये गए BU:</label><br>
+            <input type="text" id="bu_used" name="bu_used"><br>
+    
+            <label for="cu_used">उपयोग में लाये गए CU:</label><br>
+            <input type="text" id="cu_used" name="cu_used"><br>
+    
+            <label for="vvpat_used">उपयोग में लाये गए VVPAT:</label><br>
+            <input type="text" id="vvpat_used" name="vvpat_used"><br>
+    
+            <label for="bu_cu_vvpat_changed">BU, CU, VVPAT की बदलाव:</label><br>
+            <input type="text" id="bu_cu_vvpat_changed" name="bu_cu_vvpat_changed"><br>
+    
+            <label for="bu_cu_vvpat_change_time">BU, CU, VVPAT के बदलाव का समय:</label><br>
+            <input type="text" id="bu_cu_vvpat_change_time" name="bu_cu_vvpat_change_time"><br>
+    
+            <label for="eds_voters_voted">ईडीसी से मतदान करने वाले मतदाता:</label><br>
+            <input type="text" id="eds_voters_voted" name="eds_voters_voted"><br>
+    
+            <label for="asd_total_voters">एएसडी सूची में दर्ज मतदाता की कुल संख्या:</label><br>
+            <input type="text" id="asd_total_voters" name="asd_total_voters"><br>
+    
+            <label for="asd_voters_voted">एएसडी सूची में दर्ज मतदाता में से मतदान करने वाले मतदाता:</label><br>
+            <input type="text" id="asd_voters_voted" name="asd_voters_voted"><br>
+    
+            <label for="ballots_distributed_at_6PM">शाम 06:00 बजे मतदाताओं को वितरित पर्चियों की संख्या:</label><br>
+            <input type="text" id="ballots_distributed_at_6PM" name="ballots_distributed_at_6PM"><br>
+    
+            <label for="incidents_reported">हिंसा की कोई घटना या अन्य कारण से मतदान में रुकावट:</label><br>
+            <textarea id="incidents_reported" name="incidents_reported"></textarea><br>
+    
+            <label for="complaints_reported">मतदान केंद्र के संदर्भ में कोई शिकायत प्राप्त हुई हो तो विवरण:</label><br>
+            <textarea id="complaints_reported" name="complaints_reported"></textarea><br>
+    
+            <input type="submit" value="प्रस्तुत करें">
+        </form>
+    </body>
+    </html>
+    
