@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for,flash,jsonify
 from flask_sqlalchemy import SQLAlchemy
-
+#firsrt version
 app = Flask(__name__)
 # Real list of Vidhan Sabha constituencies in Hindi
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///election2.db'
