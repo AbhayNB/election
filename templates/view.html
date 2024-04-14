@@ -1,27 +1,24 @@
-<!-- child_page.html -->
 {% extends "base.html" %}
-
 
 {% block content %}
     <div class="container" style="margin-top: 10vh;">
       <ul class="nav nav-tabs nav-pills">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Create Entry / प्रविष्टि बना</a>
+          <a class="nav-link" aria-current="page" href="/">Create Entry / प्रविष्टि बनाएं</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/update">Update Entry / अपडेट करें</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/view">View Booth Data</a>
-        </li>
+            <a class="nav-link active" href="/view">View Booth Data</a>
+          </li>
       </ul>
       <br><br>
-        <form action="/booth_details" method="POST" role="search">
-            <div class="mb-3">
-                
+        <form action="/view_booth" method="POST" role="search">
+            <div class="mb-3">  
                 <h3>Select Ac. / विधान सभा </h3>
                 <select class="form-select" aria-label="Select Vidhan Sabha" name="vidhan_sabha">
-                    <option selected disabled>Choose ...</option>
+                    <option selected disabled>Choose ..</option>
                     {% for vidhan_sabha in vidhan_sabhas %}
                         <option value="{{ vidhan_sabha.id }}">{{ vidhan_sabha.name }} - {{ vidhan_sabha.id }}</option>
                     {% endfor %}
@@ -41,4 +38,4 @@
         </form>
         
     </div>
-        {% endblock %}
+{% endblock %}
