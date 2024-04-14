@@ -31,10 +31,8 @@
             </tbody>
         </table>
 
-        <h2 class="mt-5">विवरण अपडेट करें</h2>
-
-        <form action="/update_booth_data" method="post">
-            <!-- Hidden field for booth_id -->
+        <h2 class="mt-5">Booth Data</h2>
+        <fieldset disabled>
             <input type="hidden" id="booth_id" name="booth_id" value="{{ booth.id }}">
         
             <!-- First column of form fields -->
@@ -225,10 +223,6 @@
                 <label for="complaints_reported" class="form-label">मतदान केंद्र के संदर्भ में कोई शिकायत प्राप्त हुई हो तो विवरण:</label>
                 <textarea class="form-control" id="complaints_reported" name="complaints_reported">{{ booth_data.complaints_reported if booth_data.complaints_reported else '' }}</textarea>
             </div>
-        
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-primary">{{action}}</button>
-        </form>
     </div>
-
+</fieldset>
     {% endblock %}

@@ -1,0 +1,52 @@
+<!-- child_page.html -->
+{% extends "base.html" %}
+
+{% block head %}
+<style>
+    table.dataframe {
+        border-collapse: collapse;
+        border: 2px solid #ccc;
+        width: 100%;
+    }
+    table.dataframe th, table.dataframe td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+    }
+</style>
+
+{% endblock %}
+
+{% block content %}
+    <h1>{{ vidhan_sabha }}</h1>
+    <form action="/generate_report/{{vidhan_sabha.id}}"  method="post">
+        <label for="filterColumn">Filter by Column:</label>
+        <select id="filterColumn"  name="filter_column">
+            <option value="" selected>Choose Field</option>
+            <option value="booth_number">Booth Number</option>
+            <option value="name">Name</option>
+            <!-- Add more options for other columns if needed -->
+        </select>
+        <input type="text" id="filterValue" placeholder="Filter Value" name= "filter_value"><br><br>
+        <label for="sortColumn">Sort by :</label>
+        <select id="sortColumn" name="sort_column">
+            <option value="" selected>Choose Field</option>
+            <option value="total_voted">Total voted</option>
+            <option value="male_voted">male_voted</option>
+            <option value="female_voted">female_voted</option>
+            <!-- Add more options for other columns if needed -->
+        </select>
+        <select id="sortOrder"  name="sort_order">
+            <option value="" selected>Order</option>
+            <option value="asc">Least on top</option>
+            <option value="desc">Most on top</option>
+        </select>
+        <button type="submit">Apply</button>
+    </form>
+
+    <!-- Display DataFrame -->
+    {% for table in tables %}
+        {{ table|safe }}
+    {% endfor %}
+   
+{% endblock %}
